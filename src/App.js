@@ -1,12 +1,13 @@
-import logo from './airbnb-logo.png';
 import './App.css';
+import Head from './Head';
+import Hero from './Hero';
+
 
 function App() {
   return (
     <>
-    <nav>
-      <img src={logo} alt="airbnblogo" className='logo' />
-    </nav>
+    <Head/>
+    <Hero/>
     </>
   );
 }
